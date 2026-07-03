@@ -1,0 +1,163 @@
+{
+  "business": {
+    "name": "Aura Wellness & Spa",
+    "phone": "+91 7081891995",
+    "phone_href": "+917081891995",
+    "whatsapp": "917081891995",
+    "location": "Gomti Nagar, Lucknow, Uttar Pradesh, India",
+    "short_location": "Gomti Nagar, Lucknow",
+    "maps_embed": "https://www.google.com/maps?q=Gomti+Nagar,+Lucknow,+Uttar+Pradesh,+India&output=embed"
+  },
+  "services": [
+    {
+      "name": "Swedish Massage",
+      "slug": "swedish-massage",
+      "benefit": "gentle flowing strokes, relaxation and better sleep",
+      "price": "60 min ₹2,499",
+      "focus": "Swedish massage in Lucknow"
+    },
+    {
+      "name": "Deep Tissue Massage",
+      "slug": "deep-tissue-massage",
+      "benefit": "focused pressure for stiff muscles and deep tension",
+      "price": "60 min ₹2,999",
+      "focus": "deep tissue massage in Gomti Nagar"
+    },
+    {
+      "name": "Balinese Massage",
+      "slug": "balinese-massage",
+      "benefit": "stretching, acupressure and aromatic oil therapy",
+      "price": "75 min ₹3,499",
+      "focus": "Balinese massage Lucknow"
+    },
+    {
+      "name": "Thai Massage",
+      "slug": "thai-massage",
+      "benefit": "assisted stretching and pressure-point bodywork",
+      "price": "75 min ₹3,299",
+      "focus": "Thai massage in Lucknow"
+    },
+    {
+      "name": "Aromatherapy",
+      "slug": "aromatherapy",
+      "benefit": "essential-oil relaxation rituals selected for mood and stress",
+      "price": "60 min ₹2,799",
+      "focus": "aromatherapy spa Gomti Nagar"
+    },
+    {
+      "name": "Hot Stone Massage",
+      "slug": "hot-stone-massage",
+      "benefit": "warm basalt stones for deep relaxation and comfort",
+      "price": "75 min ₹3,799",
+      "focus": "hot stone massage Lucknow"
+    },
+    {
+      "name": "Couple Spa",
+      "slug": "couple-spa",
+      "benefit": "private couple suite experiences for shared relaxation",
+      "price": "90 min ₹5,999",
+      "focus": "couple spa in Gomti Nagar"
+    },
+    {
+      "name": "Steam Bath",
+      "slug": "steam-bath",
+      "benefit": "detoxifying steam session for recovery and skin freshness",
+      "price": "30 min ₹999",
+      "focus": "steam bath in Lucknow"
+    },
+    {
+      "name": "Jacuzzi",
+      "slug": "jacuzzi",
+      "benefit": "warm hydrotherapy soak for total-body relaxation",
+      "price": "30 min ₹1,299",
+      "focus": "jacuzzi spa Lucknow"
+    },
+    {
+      "name": "Body Polishing",
+      "slug": "body-polishing",
+      "benefit": "luxury exfoliation for smoother brighter skin",
+      "price": "60 min ₹2,999",
+      "focus": "body polishing in Lucknow"
+    },
+    {
+      "name": "Body Scrub",
+      "slug": "body-scrub",
+      "benefit": "mineral and botanical scrub for skin renewal",
+      "price": "45 min ₹1,999",
+      "focus": "body scrub spa Gomti Nagar"
+    },
+    {
+      "name": "Foot Reflexology",
+      "slug": "foot-reflexology",
+      "benefit": "pressure-point foot therapy for daily fatigue",
+      "price": "45 min ₹1,499",
+      "focus": "foot reflexology Lucknow"
+    },
+    {
+      "name": "Head Massage",
+      "slug": "head-massage",
+      "benefit": "scalp, neck and shoulder relief for stress and screen fatigue",
+      "price": "30 min ₹999",
+      "focus": "head massage in Lucknow"
+    },
+    {
+      "name": "Signature Massage",
+      "slug": "signature-massage",
+      "benefit": "Aura custom blend of relaxation, stretch and pressure work",
+      "price": "90 min ₹4,499",
+      "focus": "signature massage Gomti Nagar"
+    },
+    {
+      "name": "Luxury Spa",
+      "slug": "luxury-spa",
+      "benefit": "premium full-body spa rituals with refined ambience",
+      "price": "120 min ₹6,999",
+      "focus": "luxury spa in Lucknow"
+    },
+    {
+      "name": "Men's Spa",
+      "slug": "mens-spa",
+      "benefit": "wellness treatments tailored for men and active lifestyles",
+      "price": "60 min ₹2,499",
+      "focus": "men's spa in Lucknow"
+    },
+    {
+      "name": "Women's Spa",
+      "slug": "womens-spa",
+      "benefit": "privacy-focused wellness rituals for women",
+      "price": "60 min ₹2,499",
+      "focus": "women's spa in Gomti Nagar"
+    },
+    {
+      "name": "Premium Spa",
+      "slug": "premium-spa",
+      "benefit": "elevated therapies, private rooms and a calm luxury setting",
+      "price": "90 min ₹4,999",
+      "focus": "premium spa Lucknow"
+    }
+  ],
+  "locations": [
+    "Gomti Nagar",
+    "Vibhuti Khand",
+    "Viraj Khand",
+    "Indira Nagar",
+    "Aliganj",
+    "Hazratganj",
+    "Chinhat",
+    "Faizabad Road",
+    "Amar Shaheed Path",
+    "Golf City",
+    "Sushant Golf City",
+    "Ashiyana",
+    "Alambagh",
+    "Rajajipuram",
+    "Krishna Nagar",
+    "Charbagh",
+    "Jankipuram",
+    "Mahanagar",
+    "Nirala Nagar",
+    "Gomti Nagar Extension"
+  ],
+  "blogCount": 100,
+  "generated": "2026-07-03"
+}
