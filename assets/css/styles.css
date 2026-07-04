@@ -5,8 +5,83 @@
     width:auto;
     display:block;
 }
+/* ==========================
+   AURA PREMIUM HEADER
+========================== */
+
+.site-header{
+    position:sticky;
+    top:0;
+    z-index:9999;
+    background:rgba(255,255,255,.92);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    border-bottom:1px solid rgba(0,0,0,.05);
+    transition:.35s;
+}
+
+.nav{
+    max-width:1280px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:14px 28px;
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
 .site-logo{
-    height:60px;
+    height:70px;
     width:auto;
     display:block;
+    transition:.3s;
+}
+
+.site-logo:hover{
+    transform:scale(1.05);
+}
+
+.nav-links{
+    display:flex;
+    gap:26px;
+    align-items:center;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#222;
+    font-weight:600;
+    transition:.25s;
+}
+
+.nav-links a:hover{
+    color:#B8860B;
+}
+
+.nav-cta{
+    background:#B8860B;
+    color:#fff !important;
+    padding:12px 22px;
+    border-radius:50px;
+}
+
+.nav-cta:hover{
+    background:#8E6A0D;
+}
+
+@media(max-width:900px){
+
+.site-logo{
+height:56px;
+}
+
+.nav{
+padding:12px 18px;
+}
+
 }
