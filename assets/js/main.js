@@ -5,3 +5,18 @@ const io = 'IntersectionObserver' in window ? new IntersectionObserver((entries)
 function encodeBooking(form) { const data = Object.fromEntries(new FormData(form).entries()); return `Hello Aura Wellness & Spa, I would like to book an appointment.%0AName: ${encodeURIComponent(data.name || '')}%0APhone: ${encodeURIComponent(data.phone || '')}%0AService: ${encodeURIComponent(data.service || '')}%0APreferred date: ${encodeURIComponent(data.date || '')}%0APreferred time: ${encodeURIComponent(data.time || '')}%0ANotes: ${encodeURIComponent(data.message || '')}` }
 $$('[data-whatsapp-form]').forEach(form => form.addEventListener('submit', e => { e.preventDefault(); const hp = form.querySelector('[name="company"]'); if (hp && hp.value) return; const url = `https://wa.me/${CONFIG.WHATSAPP}?text=${encodeBooking(form)}`; window.open(url, '_blank', 'noopener,noreferrer') }));
 $$('[data-contact-form]').forEach(form => form.addEventListener('submit', e => { e.preventDefault(); const d = Object.fromEntries(new FormData(form).entries()); const text = `Hello Aura Wellness & Spa, please contact me.%0AName: ${encodeURIComponent(d.name || '')}%0APhone: ${encodeURIComponent(d.phone || '')}%0AMessage: ${encodeURIComponent(d.message || '')}`; window.open(`https://wa.me/${CONFIG.WHATSAPP}?text=${text}`, '_blank', 'noopener,noreferrer') }));
+// Phone links
+document.querySelectorAll(".phone-link").forEach(el => {
+    el.href = "tel:" + CONFIG.PHONE;
+    el.textContent = CONFIG.PHONE_DISPLAY;
+});
+
+// WhatsApp links
+document.querySelectorAll(".wa-link").forEach(el => {
+    el.href = "https://wa.me/" + CONFIG.WHATSAPP;
+});
+
+// Address
+document.querySelectorAll(".business-address").forEach(el => {
+    el.textContent = CONFIG.ADDRESS;
+});
