@@ -8,15 +8,14 @@ $$('[data-contact-form]').forEach(form => form.addEventListener('submit', e => {
 // Phone links
 document.querySelectorAll(".phone-link").forEach(el => {
     el.href = "tel:" + CONFIG.PHONE;
+
+    if (el.classList.contains("sticky-call")) return;
+
     el.textContent = CONFIG.PHONE_DISPLAY;
 });
 
-// WhatsApp links
 document.querySelectorAll(".wa-link").forEach(el => {
     el.href = "https://wa.me/" + CONFIG.WHATSAPP;
-});
 
-// Address
-document.querySelectorAll(".business-address").forEach(el => {
-    el.textContent = CONFIG.ADDRESS;
+    if (el.classList.contains("sticky-wa")) return;
 });
